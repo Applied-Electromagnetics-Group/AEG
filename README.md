@@ -1,5 +1,6 @@
 # AEG
 Summary of software in the Applied Electromagnetics Group
+
 This is a living document used for establishing standards and providing an overview of software development in the AEG.
 
 ## Table of Contents
@@ -14,12 +15,6 @@ The code base is split between repositories to aid in compartmentalizing design.
 | ------------- |:-------------|:------:|:----:|:------:|:-----:|
 | [AEG](https://github.com/Applied-Electromagnetics-Group/AEG)              | This repository        | Alive | @b-besler | Open | |
 | [disperso](https://github.com/Applied-Electromagnetics-Group/disperso)              | Simulate time delay measurements through breast tissues.        | Alive | @besler | Closed | [![ci](https://github.com/Applied-Electromagnetics-Group/disperso/actions/workflows/ci.yml/badge.svg)](https://github.com/Applied-Electromagnetics-Group/disperso/actions/workflows/ci.yml) |
-
-## Git
-* **Present tense** Commits should be in the present tense (e.g. `Fix off by one error`, not `Fixed off by one error`)
-* **Do not push to master** If you push to master, your friends will make fun of you.
-* **main, not master** Please rename `master` to `main`.
-* **Named branches** Branches should be named `YourLastName/ThisIsADescription`.
 
 ## Development Cycle
 The purpose of the development cycle is traceability with efficiency.
