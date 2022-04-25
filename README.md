@@ -12,7 +12,7 @@ This is a living document used for establishing standards and providing an overv
 # Code Structure
 The code base is split between repositories to aid in compartmentalizing design.
 | Repository    | Description  | Status | Lead | Source | Badge |
-| ------------- |:-------------|:------:|:----:|:------:|:-----:|
+| ------------- |:-------------|:------:|:------:|:------:|:-----:|
 | [AEG](https://github.com/Applied-Electromagnetics-Group/AEG)              | This repository        | Alive | @b-besler | Open | |
 | [disperso](https://github.com/Applied-Electromagnetics-Group/disperso)              | Simulate time delay measurements through breast tissues.        | Alive | @besler | Closed | [![ci](https://github.com/Applied-Electromagnetics-Group/disperso/actions/workflows/ci.yml/badge.svg)](https://github.com/Applied-Electromagnetics-Group/disperso/actions/workflows/ci.yml) |
 | [MicrowaveTomography](https://github.com/Applied-Electromagnetics-Group/MicrowaveTomography)            | Algorithms for microwave tomography.     | Alive | @b-besler | Closed | [![ci](https://github.com/Applied-Electromagnetics-Group/MicrowaveTomography/actions/workflows/ci.yml/badge.svg)](https://github.com/Applied-Electromagnetics-Group/MicrowaveTomography/actions/workflows/ci.yml) |
@@ -47,6 +47,8 @@ However, please do not commit files that save editor preference to the code base
 
 ### Git
 You can use the command line interface or a graphical interface of your pleasing so long as you follow the development cycle.
+On Windows, Git Bash is recommended when using command line interfaces.
+
 We recommend the resources at [try.github.io](https://try.github.io/) if you are not familiar with git.
-The minimum required capabilities include using the following: `add`, `commit`, `branch`, `checkout`, `pull`
+The minimum required capabilities include using the following: `add`, `commit`, `branch`, `checkout`, `pull`.
 
